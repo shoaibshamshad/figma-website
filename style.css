@@ -1,0 +1,600 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("./fonts/Roboto-Regular.ttf");
+}
+
+
+@font-face {
+    font-family: "bold";
+    src: url("./fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: "medium";
+    src: url("./fonts/Roboto-Medium.ttf");
+}
+
+@font-face {
+    font-family: "black";
+    src: url("./fonts/Roboto-Black.ttf");
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header-container {
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 174px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0px auto;
+}
+
+.logo-image {
+    width: 23px;
+    height: 6px;
+    border: 2px solid #75BF7A;
+    display: flex;
+    align-items: center;
+}
+
+.how {
+    font-size: 17px;
+    color: #000;
+    font-weight: 500;
+}
+
+.button button {
+    width: 182px;
+    height: 50px;
+    background-color: #75BF7A;
+    color: white;
+    border-radius: 6px;
+    font-size: 22px;
+    font-weight: 500;
+    border: none;
+}
+
+.nav-text-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+.second-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 650px;
+    background-color: #F9F9F9;
+}
+
+.second-sub-div {
+    width: 90%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    /* justify-content: flex-start; */
+    margin: 0px auto;
+}
+.text-parent{
+     height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+.text-container {
+    width: 50%;
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    justify-content: space-between;
+}
+
+.heading {
+    font-size: 60px;
+    color: #000;
+    font-family: "black";
+}
+
+.para {
+    color: #9E9DA2;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.download-button button {
+    width: 260px;
+    height: 67px;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download-button button {
+    width: 260px;
+    height: 67px;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
+
+.playstore {
+    width: 45px !important;
+    height: 40px !important;
+    color: #fff;
+    position: absolute;
+    z-index: 67;
+    left: 30px;
+
+}
+
+.appstore {
+    width: 41px !important;
+    height: 40px !important;
+    color: #fff;
+    position: absolute;
+    z-index: 67;
+    left: 30px;
+
+}
+
+.download-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.button-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-container-image {
+    width: 600px;
+    height: 650px;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.input-text {
+    font-size: 24px;
+    font-weight: 600;
+    width: 246px;
+    color: #fff;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.input input {
+    width: 500px;
+    height: 67px;
+    border-radius: 4px;
+    border: none;
+    background-color: #fff;
+    color: #DADADA;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.apply-button button {
+    width: 260px;
+    height: 67px;
+    background-color: #000;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 800;
+    border-radius: 4px;
+}
+
+.input-container {
+    background-color: #75BF7A;
+    width: 90%;
+    height: 166px;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    margin: 50px auto;
+
+}
+
+.input-div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.tere-div span {
+    font-size: 46px;
+    font-weight: 800;
+    font-family: sans-serif;
+    margin: 0px 5px;
+    text-align: center;
+}
+
+.tere {
+    color: #75BF7A;
+}
+
+.tere-text {
+    font-size: 23px;
+    color: #9E9DA2;
+    font-family: sans-serif;
+    font-weight: 500;
+    width: 620px;
+    height: 96px;
+    text-align: center;
+}
+
+.container-three {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 90%;
+    margin: 0px auto;
+    margin-bottom: 40px;
+    background-color: #F9F9F9;
+}
+
+.icon {
+    position: relative;
+}
+
+.parent {
+    display: flex;
+    justify-content: end;
+}
+
+.icon .circle {
+    width: 62px;
+    height: 62px;
+}
+
+.icon .child {
+    position: absolute;
+    width: 14px;
+    height: 30px;
+    left: 22px;
+    top: 15px;
+}
+
+.mobile-one-text {
+    font-size: 22px;
+    font-weight: 800;
+    font-family: sans-serif;
+    text-align: right;
+    margin: 10px 0px;
+}
+
+.mobile-one-text-para {
+    font-size: 20px;
+    color: #9E9DA2;
+    text-align: right;
+    font-family: sans-serif;
+}
+
+.side-text-div {
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    height: 85%;
+}
+
+.side- {
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    height: 85%;
+}
+
+.side-div-two {
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    height: 85%;
+
+}
+
+.side-text-div-two {
+    height: 85%;
+
+}
+
+.side-div-one {
+    display: flex;
+    flex-direction: column;
+    height: 85%;
+
+}
+
+.mobile-container {
+    width: 80%;
+    margin: 0px auto;
+    margin-bottom: 40px;
+}
+
+.mobile-div {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    height: 570px;
+}
+
+.mobile-one-text-para-two {
+    font-size: 20px;
+    color: #9E9DA2;
+    font-family: sans-serif;
+}
+
+.mobile-one-text-two {
+    font-size: 22px;
+    font-weight: 800;
+    font-family: sans-serif;
+    text-align: right;
+    margin: 10px 0px;
+}
+
+.mobile-image {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.mobile-image .front {
+    width: 579px;
+    height: 560px;
+
+}
+
+.mobile-image .background {
+    position: absolute;
+    z-index: -1;
+    bottom: 13%;
+
+}
+
+.mobile-one-text-three {
+    font-size: 22px;
+    font-weight: 800;
+    font-family: sans-serif;
+    margin: 10px 0px;
+}
+
+.mobile-one-text-para-three {
+    font-size: 20px;
+    color: #9E9DA2;
+    font-family: "Roboto";
+}
+
+.doted-image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.doted-image img {
+    width: 65px;
+    height: 12.7px;
+}
+
+.benefits-heading h2 {
+    font-size: 46px;
+    font-weight: 800;
+    text-align: center;
+    font-family: "medium";
+}
+
+.green {
+    color: #75BF7A;
+    text-align: center;
+    margin-right: 4px;
+}
+
+.benefit-parent {
+    width: 100%;
+}
+
+.number {
+    font-size: 92px;
+    color: #75BF7A;
+    font-weight: 500;
+    font-family: "medium";
+}
+
+.text {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "Roboto";
+    width: 290px;
+
+}
+
+.number-para p {
+    font-size: 22px;
+    font-weight: 500;
+    font-family: "Roboto";
+    color: #9E9DA2;
+}
+
+.number-container {
+    width: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.number-div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.clocke-image img {
+    width: 257px;
+    height: 255px;
+
+}
+
+.benefits-container {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 298px;
+    background-color: #fff;
+    margin-top: 50px;
+
+}
+
+.benefits-container-two {
+    width: 90%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    height: 298px;
+    background-color: #fff;
+    margin-top: 50px;
+}
+
+.benefit-whole {
+    width: 90%;
+    margin: 0px auto;
+    padding-bottom: 220px;
+    background-color: #F9F9F9;
+}
+
+.benefit-div-two {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.footer-logo img {
+    width: 100px;
+    height: 40px;
+    color: #000;
+    object-fit: contain;
+}
+
+.footer-heading h3 {
+    color: #272042;
+    font-size: 22px;
+    font-family: "Roboto";
+}
+
+.footer-text p {
+    color: #8B8BA5;
+    font-size: 18px;
+    font-weight: 400px;
+    font-family: "Roboto";
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 206px;
+}
+
+
+.footer-download button {
+    background-color: #000;
+    color: #fff;
+    font-size: 17px;
+    font-family: medium;
+    width: 179px;
+    height: 46px;
+    border-radius: 3.5px;
+    border: none;
+}
+
+.footer-download {
+    position: relative;
+    padding: 0px auto;
+}
+
+.playstore-image img {
+    width: 30px;
+    height: 27px;
+    color: #fff;
+    position: absolute;
+    z-index: 25;
+    bottom: 8px;
+}
+
+.footer-button {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 25%;
+    height: fit-content;
+}
+
+.footer-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border: 1px solid #ECECEC;
+}
+
+.footer-sub-container {
+    width: 90%;
+    height: 250px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer-bottom-text p {
+    font-size: 16px;
+    font-weight: 400px;
+    color: #75BF7A;
+    font-family: "Roboto";
+    text-align: center;
+    margin-top: 35px;
+}
+
+.footer-bottom-text {
+    height: 50px;
+
+}
